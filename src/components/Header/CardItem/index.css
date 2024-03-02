@@ -1,0 +1,280 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.builder-card {
+    display: flex;
+    width: 1024px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+
+
+}
+
+.id {
+    color:  #626E79;
+}
+
+@media screen and (max-width: 768px) {
+    .builder-card {
+        width: 100%;
+        flex-direction: column;
+        height: 300px;      
+    }
+}
+
+.best-value-container {
+    width: 125px;
+    height: 34px;
+    border-radius: 4px;
+    background-color: #FF7724;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 5px;
+}
+
+.best-choice-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+.card-min-container {
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+  
+}
+
+@media screen and (max-width: 768px) {
+    .best-value-container {
+        width: 100px;
+        height: 40px;
+    }
+
+    .best-choice-icon {
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+
+    .id {
+        text-align: left;
+    }
+
+    .choice {
+        font-size: 12px;
+    }
+
+    .card-content-mobile {
+        height: 250px;
+    }
+
+    .card-min-container {
+        margin-bottom: 15px;
+    }
+
+
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+    width: 141px;
+    height: 103px;
+    margin-bottom: 15px;
+}
+
+.builder {
+    color: #626E79;
+    font-family: "Inter";
+}
+
+@media screen and (min-width: 768px) {
+    .card-content-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-image {
+        width: 100px;
+    }
+
+}
+
+.card-content-desktop {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand {
+    font-size: 16px;
+    color: #4B5665;
+    font-weight: 700;
+
+}
+
+.description {
+    width: 490px;
+    height: 72px;
+    margin-bottom: 5px;
+}
+
+.highlights {
+    width: 483px;
+    height: 72px;
+    padding-left: 15px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .card-content-desktop {
+        display: none;
+    }
+
+    .brand {
+        font-size: 14px;
+    }
+
+    .brand-heading {
+        margin-top: 15px;
+        margin-bottom: 0px;
+        color: #4B5665;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .description {
+        font-size: 12px;
+        width: 300px;
+        height: 40px;
+        padding-bottom: 18px;
+    
+    }
+
+    .highlights {
+        width: 300px;
+        height: 50px;
+        font-size: 13px;
+        padding-bottom: 28px;
+    }
+}
+
+.rating-btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.rating-container {
+    width: 135px;
+    height: 118px;
+    background-color: #F3F9FF;
+    border-radius: 0px 0px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #F3F9FF;
+}
+
+.rating {
+    color: #074786;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.rating-string {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #074786;
+}
+
+.rating-img {
+    width: 66px;
+    height: 11px;
+    margin-top: 10px;
+  
+}
+
+.view-btn {
+    width: 129px;
+    height: 30px;
+    background-color: #1B88F4;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.show-btn {
+    color: #1B88F4;
+    font-family: "Times New Roman";
+    font-size: 16px;
+    font-weight: 550;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .rating-container {
+        width: 100px;
+        height: 80px;
+    }
+    .rating {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    .rating-string {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .rating-img {
+        width: 50px;
+        
+    }
+
+    .view-btn {
+        width: 100px;
+        height: 28px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    .show-btn {
+        font-size: 14px;
+        height: 25px;
+        width: 90px;
+        margin-top: 2px;
+        cursor: pointer;
+    }
+}
+
