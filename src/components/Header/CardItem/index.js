@@ -1,13 +1,9 @@
-import {Component} from 'react'
-
 import './index.css'
 
-class CardItem extends Component {
+const CardItem =(props)=> {
     
-
-    render() {
-        const {cardDetails}=this.props
-        const {id, brand, description, highlights, imageUrl, ratingValue, ratingInWords, ratingImage, builder, isBestValue, bestChoiceImage}=cardDetails
+        const {cardDetails}=props
+        const {id, brand, description, highlights, imageUrl, ratingValue, ratingInWords, ratingImageUrl, builder, isBestValue, bestChoiceImage}=cardDetails
 
         return (
             <div className='card-container'>
@@ -35,7 +31,7 @@ class CardItem extends Component {
                             <div className='rating-container'>
                                 <p className='rating'>{ratingValue}</p>
                                 <p className='rating-string'>{ratingInWords}</p>
-                                <img src={ratingImage} alt="rating" className='rating-img'/>
+                                <img src={ratingImageUrl} alt="rating" className='rating-img'/>
                             </div>
                             <button type="button" className='view-btn'>View</button>
                         </div>
@@ -49,7 +45,6 @@ class CardItem extends Component {
                 </li>
             </div>
         )
-    }
 }
         
 

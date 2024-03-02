@@ -58,6 +58,7 @@
     .best-value-container {
         width: 100px;
         height: 40px;
+        margin-bottom: 20px;
     }
 
     .best-choice-icon {
@@ -110,7 +111,7 @@
 
 @media screen and (max-width: 768px) {
     .card-image {
-        width: 100px;
+        width: 90px;
     }
 
 }
@@ -258,7 +259,8 @@
     }
 
     .rating-img {
-        width: 50px;
+        width: 60px;
+        height: 20px;
         
     }
 
